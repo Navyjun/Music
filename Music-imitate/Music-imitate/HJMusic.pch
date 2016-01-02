@@ -1,0 +1,31 @@
+//
+//  HJMusic.pch
+//  QQ音乐
+//
+//  Created by nave on 15/5/3.
+//  Copyright © 2015年 naveZhang. All rights reserved.
+//
+
+#ifdef __OBJC__
+
+#ifdef DEBUG
+
+#define HJLog(...) NSLog(__VA_ARGS__)
+
+#else
+
+#define HJLog(...)
+
+#endif
+
+
+#import "UIView+Extension.h"
+#import "HJImageView.h"
+#import "CALayer+PauseAimate.h"
+#import "UIImage+textImage.h"
+
+#define kScreenW  [UIScreen mainScreen].bounds.size.width
+#define kScreenH  [UIScreen mainScreen].bounds.size.height
+
+
+#endif
